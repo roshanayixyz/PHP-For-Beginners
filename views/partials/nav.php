@@ -11,10 +11,10 @@
                         <div class="ml-10 flex items-baseline space-x-4">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                             <a href="/" <?=urlis('/') ? ' class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page" ' : 'class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"' ?> >Dashboard</a>
-                            <a href="/team" <?=urlis('/') ? ' class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page" ' : 'class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"' ?> >Team</a>
-                            <a href="/projects" <?=urlis('/') ? ' class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page" ' : 'class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"' ?> >Projects</a>
-                            <a href="/calendar" <?=urlis('/') ? ' class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page" ' : 'class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"' ?> >Calendar</a>
-                            <a href="/reports" <?=urlis('/') ? ' class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page" ' : 'class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"' ?> >Reports</a>
+                            <a href="/team" <?=urlis('/team') ? ' class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page" ' : 'class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"' ?> >Team</a>
+                            <a href="/projects" <?=urlis('/projects') ? ' class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page" ' : 'class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"' ?> >Projects</a>
+                            <a href="/calendar" <?=urlis('/calendar') ? ' class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page" ' : 'class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"' ?> >Calendar</a>
+                            <a href="/reports" <?=urlis('/reports') ? ' class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page" ' : 'class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"' ?> >Reports</a>
                         </div>
                     </div>
                 </div>
